@@ -1,0 +1,8 @@
+2025-11-17 17:37:53,336 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 17:37:53,341 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 17:37:53,344 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 17:37:53,374 - app.config.logger - INFO - Starting Voice Authentication Backend v1.0.0
+2025-11-17 17:37:53,374 - app.config.logger - INFO - CORS origins: ['http://localhost', 'http://localhost:3000', 'http://127.0.0.1', 'http://127.0.0.1:3000', 'http://10.0.2.2', 'http://10.0.2.2:8000']
+2025-11-17 17:50:46,271 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 17:50:46,271 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 17:50:46,279 - app.config.logger - INFO - VoiceVerificationService initialized

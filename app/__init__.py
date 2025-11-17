@@ -13,7 +13,8 @@ from app.routes import (
     health_router,
     samples_router,
     detection_router,
-    verification_router
+    verification_router,
+    door_control_router
 )
 
 
@@ -41,6 +42,7 @@ def create_app() -> FastAPI:
     app.include_router(samples_router)
     app.include_router(detection_router)
     app.include_router(verification_router)
+    app.include_router(door_control_router)
     
     @app.on_event("startup")
     async def startup_event():

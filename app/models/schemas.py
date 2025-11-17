@@ -44,6 +44,14 @@ class VoiceVerificationResponse(BaseModel):
     processing_time_ms: float = Field(..., description="Processing time in milliseconds")
 
 
+class DoorControlResponse(BaseModel):
+    """Response from door control endpoints"""
+    action: str = Field(..., description="Action performed (lock, unlock, status)")
+    status: str = Field(..., description="Status of the operation (success, error)")
+    locked: bool = Field(..., description="Current door locked state")
+    message: str = Field(..., description="Human-readable message")
+
+
 class ErrorResponse(BaseModel):
     """Error response"""
     error: str = Field(..., description="Error message")
