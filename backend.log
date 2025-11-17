@@ -6,3 +6,144 @@
 2025-11-17 17:50:46,271 - app.config.logger - INFO - WakewordDetectionService initialized
 2025-11-17 17:50:46,271 - app.config.logger - INFO - CommandDetectionService initialized
 2025-11-17 17:50:46,279 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 17:53:44,662 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 17:54:52,008 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 17:55:03,277 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763382303275.wav
+2025-11-17 17:55:11,076 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763382311075.wav
+2025-11-17 17:55:15,266 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763382315265.wav
+2025-11-17 17:55:19,136 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763382319135.wav
+2025-11-17 17:55:22,779 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763382322754.wav
+2025-11-17 17:55:26,227 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763382326226.wav
+2025-11-17 17:55:31,741 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763382331740.wav
+2025-11-17 17:55:34,995 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763382334970.wav
+2025-11-17 17:55:38,167 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763382338166.wav
+2025-11-17 17:55:41,431 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763382341429.wav
+2025-11-17 17:55:45,594 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763382345593.wav
+2025-11-17 17:55:48,740 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763382348725.wav
+2025-11-17 17:55:51,949 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763382351948.wav
+2025-11-17 17:55:55,640 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763382355639.wav
+2025-11-17 17:55:57,543 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 17:56:07,688 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.505, time=229.00ms
+2025-11-17 17:56:10,879 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.521, time=13.75ms
+2025-11-17 17:56:14,399 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 17:56:14,422 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.842, time=23.28ms
+2025-11-17 17:56:14,559 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.271, time=38.55ms
+2025-11-17 17:56:20,760 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.511, time=20.92ms
+2025-11-17 17:56:23,938 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.506, time=10.07ms
+2025-11-17 17:56:27,115 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.509, time=10.53ms
+2025-11-17 17:56:31,127 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.509, time=159.60ms
+2025-11-17 17:56:34,302 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.507, time=9.83ms
+2025-11-17 17:56:37,533 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.503, time=18.61ms
+2025-11-17 17:56:40,720 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.519, time=14.83ms
+2025-11-17 17:56:43,890 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.501, time=14.07ms
+2025-11-17 17:56:47,345 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 17:56:47,346 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.813, time=1.00ms
+2025-11-17 17:56:47,422 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.271, time=5.53ms
+2025-11-17 17:56:47,558 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.511, time=4.01ms
+2025-11-17 17:56:50,992 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 17:56:50,992 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.851, time=0.00ms
+2025-11-17 17:56:51,117 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.272, time=31.58ms
+2025-11-17 17:56:53,635 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.510, time=17.61ms
+2025-11-17 17:56:56,746 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.26s
+2025-11-17 17:56:57,441 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.26s
+2025-11-17 17:56:59,670 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.19s
+2025-11-17 17:57:00,615 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.19s
+2025-11-17 17:57:02,786 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:03,847 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:05,984 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:07,021 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:09,152 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:10,193 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:12,351 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:13,384 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:15,535 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:16,570 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:18,702 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:19,765 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:21,932 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:23,002 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:25,132 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:26,232 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:28,351 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:29,389 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:31,614 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 17:57:32,631 - app.config.logger - WARNING - Invalid audio for wakeword detection: Audio too short: 0.06s
+2025-11-17 18:18:46,550 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 18:19:32,349 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 18:26:08,509 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 18:26:18,993 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384178992.wav
+2025-11-17 18:26:22,742 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384182741.wav
+2025-11-17 18:26:26,179 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384186179.wav
+2025-11-17 18:26:31,082 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384191081.wav
+2025-11-17 18:26:34,242 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384194241.wav
+2025-11-17 18:26:37,446 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384197446.wav
+2025-11-17 18:26:40,708 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\wakeword\sample_1763384200707.wav
+2025-11-17 18:26:43,768 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384203767.wav
+2025-11-17 18:26:46,805 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384206804.wav
+2025-11-17 18:26:49,805 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384209804.wav
+2025-11-17 18:26:52,819 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384212819.wav
+2025-11-17 18:26:55,887 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384215886.wav
+2025-11-17 18:26:58,862 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384218861.wav
+2025-11-17 18:27:02,026 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\open_door\sample_1763384222026.wav
+2025-11-17 18:27:05,000 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384225000.wav
+2025-11-17 18:27:07,266 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384227265.wav
+2025-11-17 18:27:10,308 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384230307.wav
+2025-11-17 18:27:13,468 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384233467.wav
+2025-11-17 18:27:16,520 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384236518.wav
+2025-11-17 18:27:19,634 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384239634.wav
+2025-11-17 18:27:22,885 - app.config.logger - INFO - Saved sample to: C:\vscodeprojects\home_app\backend\data\close_door\sample_1763384242884.wav
+2025-11-17 18:27:24,616 - app.config.logger - INFO - Health check endpoint called
+2025-11-17 18:27:33,803 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.503, time=4.74ms
+2025-11-17 18:27:35,875 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.523, time=3.00ms
+2025-11-17 18:27:37,947 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=3.07ms
+2025-11-17 18:27:40,020 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=3.00ms
+2025-11-17 18:27:42,099 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.501, time=2.09ms
+2025-11-17 18:27:44,174 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=3.01ms
+2025-11-17 18:27:46,224 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.506, time=2.59ms
+2025-11-17 18:27:48,305 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.508, time=3.00ms
+2025-11-17 18:27:50,378 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.508, time=3.51ms
+2025-11-17 18:27:52,440 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.506, time=3.00ms
+2025-11-17 18:27:55,823 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:27:55,824 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=False, confidence=0.624, time=1.00ms
+2025-11-17 18:27:58,894 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.501, time=3.29ms
+2025-11-17 18:28:00,975 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.505, time=2.01ms
+2025-11-17 18:28:04,369 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:28:04,369 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.897, time=0.00ms
+2025-11-17 18:28:04,433 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.273, time=4.34ms
+2025-11-17 18:28:08,601 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.512, time=3.00ms
+2025-11-17 18:28:11,961 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:28:11,962 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.896, time=0.50ms
+2025-11-17 18:28:12,022 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.270, time=4.76ms
+2025-11-17 18:28:16,117 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.506, time=2.35ms
+2025-11-17 18:28:18,191 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=3.00ms
+2025-11-17 18:28:20,259 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.508, time=3.50ms
+2025-11-17 18:28:23,620 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:28:23,620 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=False, confidence=0.652, time=0.51ms
+2025-11-17 18:28:26,740 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=3.00ms
+2025-11-17 18:28:28,820 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.501, time=3.00ms
+2025-11-17 18:28:30,877 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.501, time=2.40ms
+2025-11-17 18:28:34,249 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:28:34,250 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.794, time=1.02ms
+2025-11-17 18:28:34,317 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.273, time=4.86ms
+2025-11-17 18:28:38,413 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.502, time=2.87ms
+2025-11-17 18:28:40,488 - app.config.logger - INFO - Wakeword detection: detected=True, confidence=0.510, time=4.00ms
+2025-11-17 18:28:43,848 - app.config.logger - WARNING - No registered voice for user: HomeOwner
+2025-11-17 18:28:43,848 - app.config.logger - INFO - Voice verification: user=HomeOwner, verified=True, confidence=0.730, time=0.00ms
+2025-11-17 18:28:43,906 - app.config.logger - INFO - Command detection: intent=lock, confidence=0.270, time=2.99ms
+2025-11-17 18:28:47,994 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.510, time=3.09ms
+2025-11-17 18:28:50,061 - app.config.logger - INFO - Wakeword detection: detected=False, confidence=0.505, time=3.00ms
+2025-11-17 18:32:39,012 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 18:32:39,015 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 18:32:39,018 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 18:34:03,449 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 18:34:03,449 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 18:34:03,454 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 18:35:39,941 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 18:35:39,942 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 18:35:39,942 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 18:35:54,370 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 18:35:54,373 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 18:35:54,376 - app.config.logger - INFO - VoiceVerificationService initialized
+2025-11-17 18:36:25,736 - app.config.logger - INFO - WakewordDetectionService initialized
+2025-11-17 18:36:25,740 - app.config.logger - INFO - CommandDetectionService initialized
+2025-11-17 18:36:25,744 - app.config.logger - INFO - VoiceVerificationService initialized
