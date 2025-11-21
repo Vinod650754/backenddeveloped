@@ -3,6 +3,7 @@ fastapi==0.95.2
 uvicorn[standard]==0.23.1
 python-multipart==0.0.6
 pydantic>=1.10.0
+gunicorn
 
 # Audio Processing
 torch>=2.0.0
